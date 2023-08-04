@@ -9,19 +9,19 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@prisma/client": "5.1.1",
+    "@prisma/client": "5.2.0-dev.12",
     "nuxt": "3.6.5"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "7.22.9",
     "@nuxtjs/eslint-config": "12.0.0",
     "@nuxtjs/eslint-module": "4.1.0",
-    "@babel/eslint-parser": "7.22.9",
     "eslint": "8.46.0",
     "eslint-config-prettier": "8.10.0",
     "eslint-plugin-nuxt": "4.0.0",
     "eslint-plugin-prettier": "5.0.0",
     "prettier": "3.0.1",
-    "prisma": "5.1.1"
+    "prisma": "5.2.0-dev.12"
   },
   "prisma": {
     "seed": "node prisma/seed.js"
