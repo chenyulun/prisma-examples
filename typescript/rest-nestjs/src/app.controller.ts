@@ -78,7 +78,7 @@ export class AppController {
         title,
         content,
         author: {
-          connect: { email: authorEmail },
+          create: { email: authorEmail },
         },
       },
     })
